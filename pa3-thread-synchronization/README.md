@@ -11,11 +11,11 @@ This assignment extends multithreading with synchronization primitives to coordi
 ## Build
 
 ```bash
-g++ -std=c++17 -pthread src/thread_synchronization.cpp -o pa3
+g++ -std=c++17 -pthread src/thread_synchronization.cpp -o thread_synchronization
 ```
 
 ## Run
 
 ```bash
-./pa3 < ../pa2-client-server/sample/input.txt
+./thread_synchronization < ../pa2-client-server/sample/input.txt
 ```
