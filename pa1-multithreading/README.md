@@ -11,11 +11,11 @@ This assignment processes an input message using one thread per symbol.
 ## Build
 
 ```bash
-g++ -std=c++17 -pthread src/multithreading.cpp -o pa1
+g++ -std=c++17 -pthread src/multithreading.cpp -o multithreading
 ```
 
 ## Run
 
 ```bash
-./pa1 < ../pa2-client-server/sample/input.txt
+./mulithreading
 ```
