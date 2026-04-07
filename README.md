@@ -32,3 +32,4 @@ g++ -std=c++17 -pthread pa2-client-server/src/client.cpp -o client
 g++ -std=c++17 -pthread pa3-thread-synchronization/src/thread_synchronization.cpp -o pa3
 ./pa3 < pa2-client-server/sample/input.txt
 ```
+# OS-Parallel-Programming
