@@ -13,7 +13,7 @@ C++ programming assignments covering multithreading, thread synchronization, and
 ### PA1
 
 ```bash
-g++ -std=c++17 -pthread pa1-multithreading/src/multithreading.cpp -o pa1
+g++ -std=c++17 -pthread pa1-multithreading/src/multithreading.cpp -o multithreading
 ./pa1 < pa2-client-server/sample/input.txt
 ```
 
@@ -29,7 +29,7 @@ g++ -std=c++17 -pthread pa2-client-server/src/client.cpp -o client
 ### PA3
 
 ```bash
-g++ -std=c++17 -pthread pa3-thread-synchronization/src/thread_synchronization.cpp -o pa3
+g++ -std=c++17 -pthread pa3-thread-synchronization/src/thread_synchronization.cpp -o thread_synchronization
 ./pa3 < pa2-client-server/sample/input.txt
 ```
 # OS-Parallel-Programming
