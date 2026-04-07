@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Build artifacts
+*.o
+*.out
+*.exe
+
+# Debug symbols
+*.dSYM/
+
+# Generated binaries (current/local names)
+PA1
+client
+server
+
+# Logs
+*.log
+
+# VS Code local settings
+.vscode/
